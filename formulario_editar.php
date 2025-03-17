@@ -53,7 +53,7 @@
         input[type="password"] {
             background-color: #333;
             border: 1px solid #444;
-            color: #f2f2f2;
+            color:rgb(0, 0, 0);
             border-radius: 5px;
             margin-bottom: 15px;
             padding: 10px;
