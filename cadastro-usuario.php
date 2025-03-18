@@ -9,6 +9,7 @@ $dsn = 'mysql:dbname=db_login;host=127.0.0.1';
 $user = 'root';
 $password = '';
 
+
 $banco = new PDO($dsn, $user, $password);
 
 $insert = 'INSERT INTO tb_usuario (usuario,senha) VALUE (:usuario , :senha)';
@@ -19,6 +20,7 @@ $box->execute([
     ':usuario' => $usuario_form,
     ':senha' => $senha_form,
 ]);
+
 
 
 $nome =$_POST['nome'];
@@ -48,3 +50,11 @@ $boxe->execute([
 ]);
 ?>
   <a class="btn btn-danger" href="./index.php">VOLTAR</a>
+  
+
+
+
+  <script>
+    alert('Cadastro realizado com sucesso!');
+    window.location.href='index.php';
+  </script>

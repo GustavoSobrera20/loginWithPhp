@@ -84,7 +84,7 @@
 
         /* Estilo da imagem */
         img {
-            width: 200px;
+            width: 100px;
             object-fit: cover;
             margin-bottom: 20px;
         }
