@@ -46,3 +46,5 @@ $boxe->execute([
    ':bairro'=>$bairro,
    ':cidade'=>$cidade,
 ]);
+?>
+  <a class="btn btn-danger" href="./index.php">VOLTAR</a>

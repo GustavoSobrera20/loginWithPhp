@@ -26,7 +26,7 @@ body {
 /* Contêiner principal */
 .container {
     background-color: #34495e; /* Fundo escuro para o formulário */
-    padding: 20px;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra suave */
     width: 100%;
@@ -202,6 +202,7 @@ a:hover {
 
 
             <input type="submit" class="btn btn-success">
+            <a class="btn btn-danger" href="./index.php">VOLTAR</a>
         </form>
 
 
